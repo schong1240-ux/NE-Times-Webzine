@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NE Times - 중국어 신문</title>
+    <title>NE Times - 중국어 교육 웹진</title>
+    <meta name="description" content="NE 능률 중국어 신문 - 최신 뉴스, 문화, 학습 콘텐츠를 만나보세요." />
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Noto+Serif+KR:wght@400;700&display=swap" rel="stylesheet">
     <script>
@@ -18,7 +19,7 @@
               'ne-red': '#E63946',
               'ne-dark': '#1D3557',
               'ne-bg': '#F1FAEE',
-              'ne-accent': '#A8DADC',
+              'ne-accent': '#457B9D',
             }
           }
         }
@@ -35,16 +36,15 @@
           -ms-overflow-style: none;
           scrollbar-width: none;
       }
-      /* 웹진 페이지 전환 효과 */
       @keyframes fadeIn {
         from { opacity: 0; transform: translateY(10px); }
         to { opacity: 1; transform: translateY(0); }
       }
       .animate-fade-in {
-        animation: fadeIn 0.4s ease-out forwards;
+        animation: fadeIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
       }
     </style>
-<script type="importmap">
+  <script type="importmap">
 {
   "imports": {
     "react": "https://esm.sh/react@^19.2.3",
